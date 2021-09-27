@@ -37,7 +37,12 @@ You can find prebuilt binaries for Min [here](https://github.com/minbrowser/min/
 
 ### Installation on Linux
 
-- To install the .deb file, use `sudo dpkg -i /path/to/download`
+- To install the .deb file
+- Update debian dependancies :
+- apt install aptitude
+- aptitude install libnotify4 libnss3 kde-cli-tools kde-runtime trash-cli libglib2.0-bin gvfs-bin libsecret-1-dev
+- , use `sudo dpkg -i /path/to/download`
+
 - To install the RPM build, use `sudo rpm -i /path/to/download --ignoreos`
 
 ## Developing
